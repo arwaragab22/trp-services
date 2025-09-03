@@ -24,15 +24,15 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "/Software Development",
+        path: "/Software",
         Component: SoftwareDevelopmen,
       },
       {
-        path: "/ERP Systems",
+        path: "/ERP",
         Component: ERP,
       },
       {
-        path: "/Hosting & Servers",
+        path: "/Hosting",
         Component: Hosting,
       },
       {

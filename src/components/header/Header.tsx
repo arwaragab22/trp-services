@@ -84,7 +84,9 @@ function Header() {
         <div className="nav-info flex gap-4 h-full">
           <ul className=" hidden lg:flex text-white gap-5 font-semibold text-xl ">
             <li>
-              <NavLink to="/" className="flex gap-1 items-center linknav">
+              <NavLink to="/" className={({ isActive }) =>
+                `linknav ${isActive ? "active1" : ""}`
+              }>
                 <span>{t("nav.home")}</span>
               </NavLink>
             </li>
@@ -113,17 +115,24 @@ function Header() {
               }
               }
             >
-              <div
-                className="flex gap-1 items-center linknav cursor-pointer"
+              <NavLink
+                to="#"
+                className={({ isActive }) =>
+                  `flex gap-1 items-center linknav cursor-pointer ${isActive || openmenulink === "services" ? "active1" : ""
+                  }`
+                }
               >
                 <span>{t("nav.services")}</span>
                 <FaAngleDown />
-              </div>
+              </NavLink>
               {openmenulink === "services" && (
                 <div className="absolute top-[33px] left-0 rtl:right-0 ltr:left-0 z-[40000]">
                   <Menuoflink
                     list={t("services.list", { returnObjects: true }) as string[]}
-                    links={t("services.links", { returnObjects: true }) as string[]}
+                    links={t("services.links", { returnObjects: true }) as string[]} onLinkClick={() => {
+                      // نضيف الكلاس للعنصر الأساسي عند الضغط
+                      setopenmenulink("services");
+                    }}
                   />
                 </div>
               )}
@@ -175,8 +184,10 @@ function Header() {
 
 
 
-            <li>
-              <NavLink to="/contact" className="linknav hover:">
+            <li className="">
+              <NavLink to="/contact" className={({ isActive }) =>
+                `linknav ${isActive ? "active1" : ""}`
+              }>
                 {t("nav.contact")}
               </NavLink>
             </li>

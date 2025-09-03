@@ -16,7 +16,7 @@
   "services": {
     "title": "خدماتنا",
     "list": ["تطوير البرمجيات", "أنظمة ERP", "الاستضافة والسيرفرات"],
-    "links": ["Software Development", "ERP Systems", "Hosting & Servers"]
+    "links": ["Software", "ERP", "Hosting"]
   },
   "solutions": {
     "title": "حلول القطاعات",

@@ -16,7 +16,7 @@
   "services": {
     "title": "Our Services",
     "list": ["Software Development", "ERP Systems", "Hosting & Servers"],
-    "links": ["Software Development", "ERP Systems", "Hosting & Servers"]
+    "links": ["Software", "ERP", "Hosting"]
   },
   "solutions": {
     "title": "Sector Solutions",
