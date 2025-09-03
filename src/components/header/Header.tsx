@@ -8,8 +8,7 @@ import { t } from "i18next";
 import { MdOutlineMenu } from "react-icons/md";
 import Sidemenu from "../Sidemenu";
 import Menuoflink from "../Menuoflink";
-import { setMaxListeners } from "events";
-import { TbChevronsDownLeft } from "react-icons/tb";
+
 type lang = "ar" | "en";
 function Header() {
   const location = useLocation();
