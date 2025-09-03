@@ -1,0 +1,22 @@
+{
+  "title": "Welcome to react using react-i18next",
+  "description": {
+    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+    "part2": "Switch language between english and german using buttons above."
+  },
+  "newsletter": {
+    "title": "Stay updated with the latest tech trends",
+    "desc": "Subscribe to our newsletter to get the latest news and tips on technology and business solutions.",
+    "chooseServices": "Select the services you are interested in:",
+    "services": {
+      "erp": "ERP Systems",
+      "software": "Software Development",
+      "hosting": "Hosting Services",
+      "analysis": "Business Analysis"
+    },
+    "note": "* You can select more than one service",
+    "emailPlaceholder": "Email Address",
+    "button": "Subscribe Now",
+    "footerNote": "We won’t send you spam, and you can unsubscribe anytime."
+  }
+}

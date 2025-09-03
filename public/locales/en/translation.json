@@ -1,0 +1,597 @@
+{
+  "title": "Welcome to react using react-i18next",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "companies": "Our Companies",
+    "stories": "Success Stories",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Enterprise Resource Planning Systems",
+    "description": "Integrated Odoo and ERPNext solutions to manage your business efficiently",
+    "button": "Start your plan now"
+  },
+  "services": {
+    "title": "Our Services",
+    "list": ["Software Development", "ERP Systems", "Hosting & Servers"],
+    "links": ["Software Development", "ERP Systems", "Hosting & Servers"]
+  },
+  "solutions": {
+    "title": "Sector Solutions",
+    "list": [
+      "Manufacturing Sector",
+      "Retail & E-commerce",
+      "Logistics Services",
+      "Professional Services",
+      "Healthcare Sector",
+      "E-learning",
+      "Event Management"
+    ]
+  },
+  "companies": {
+    "title": "Our Companies",
+    "list": [
+      "Keffah Group",
+      "ITCS",
+      "DRA Marketing Agency",
+      "DRA Event Management",
+      "KASCCO Manpower",
+      "KASCCO Logistics"
+    ]
+  },
+  "more": "Discover more",
+  "about-sec": {
+    "title": "Who are we at TRP?",
+    "paragraph1": "At TRP, we specialize in providing integrated IT solutions for businesses.",
+    "paragraph2": "We focus on implementing and customizing ERP systems such as Odoo and ERPNext to meet your unique business needs.",
+    "paragraph3": "In addition, we offer custom software development services, hosting solutions, and professional business analysis services.",
+    "highlightTitle": "With TRP,",
+    "highlightText": "we help you digitize and automate your business processes, enhance operational efficiency, and achieve a real competitive advantage in the market by leveraging the latest technologies."
+  },
+  "coreServices": "Our Core Services",
+  "coreServicesDesc": "We provide a comprehensive range of technology services tailored to your business needs.",
+  "servicescard": [
+    {
+      "title": "Enterprise Resource Planning",
+      "desc": "Comprehensive solutions for implementing and customizing Odoo and ERPNext systems.",
+      "details": "With the rapid digital transformation in Saudi Arabia, ERP systems have become a strategic tool for managing resources, improving operational efficiency, and supporting data-driven decision-making. We provide customizable Odoo and ERPNext solutions with full training and operational sustainability.",
+      "img": "/images/serv1.png"
+    },
+    {
+      "title": "Custom Software Development",
+      "desc": "Websites, mobile apps, and integrated software solutions tailored to your needs.",
+      "details": "We build innovative software solutions ranging from interactive websites to mobile apps and customized management systems. Each project is developed using the latest technologies, aligned with the Saudi market needs, ensuring ease of use and seamless integration.",
+      "img": "/images/serv2.png"
+    },
+    {
+      "title": "Hosting & Servers",
+      "desc": "Reliable hosting, virtual servers, and domains for smooth business operations.",
+      "details": "We provide fast, secure hosting and virtual servers to ensure your business runs without interruption. Our services include full domain management, monitoring, and advanced security measures.",
+      "img": "/images/serv3.png"
+    },
+    {
+      "title": "Digital Transformation",
+      "desc": "Strategies and plans to transform your business into a fully digital environment.",
+      "details": "We help Saudi organizations transition into smart digital ecosystems by designing tailored digital transformation strategies, optimizing processes, automating workflows, and adopting modern technologies aligned with Vision 2030.",
+      "img": "/images/serv4.png"
+    },
+    {
+      "title": "E-commerce Solutions",
+      "desc": "Professional online stores with integrated payment and shipping systems.",
+      "details": "We develop comprehensive e-commerce platforms that provide a seamless customer experience from browsing to checkout. Our solutions support both local and international payment gateways, along with trusted Saudi shipping providers.",
+      "img": "/images/serv5.png"
+    },
+    {
+      "title": "AI & Data Analytics",
+      "desc": "Smart services for data analysis and market trend prediction.",
+      "details": "We apply AI technologies to deliver accurate insights that support strategic decision-making. Our services include data analytics, predictive models, and smart automation to drive your business growth.",
+      "img": "/images/serv6.png"
+    },
+    {
+      "title": "UI/UX Design",
+      "desc": "Modern designs that ensure usability and customer engagement.",
+      "details": "We design interactive user interfaces and smooth user experiences that reflect your brand identity and enhance customer satisfaction. Our solutions are built using the latest design standards and optimized for all devices.",
+      "img": "/images/serv7.png"
+    },
+    {
+      "title": "Cybersecurity",
+      "desc": "Protecting your data and infrastructure from threats and attacks.",
+      "details": "We provide comprehensive cybersecurity solutions, including penetration testing, network monitoring, and advanced protection systems to ensure data confidentiality and integrity, aligned with global standards.",
+      "img": "/images/serv8.png"
+    },
+    {
+      "title": "Training & Capacity Building",
+      "desc": "Technical training courses to empower your staff to use systems efficiently.",
+      "details": "We offer practical training programs covering various technical fields such as ERP, software development, cybersecurity, and data analytics. Our goal is to build a capable internal team to manage and operate your systems effectively.",
+      "img": "/images/serv9.png"
+    },
+    {
+      "title": "Technical Consulting",
+      "desc": "Expert consultancy to support effective technology decisions.",
+      "details": "We provide specialized consulting services to help you choose the right solutions, plan technical strategies, and maximize your digital resources while reducing costs and risks.",
+      "img": "/images/serv10.png"
+    }
+  ],
+  "servicesexp_title": "Premium Services",
+  "servicesexp_subtitle": "TRP’s integrated services to meet your business needs",
+  "servicesexp_description": "All your technical needs... in one platform",
+  "servicesexp": {
+    "erp": {
+      "img": "/images/serv1.png",
+
+      "title": "Enterprise Resource Planning",
+      "subtitle": "We provide integrated Odoo and ERPNext solutions to meet your business needs",
+      "details": {
+        "1": "Installation and setup of ERP systems (Community or Enterprise edition).",
+        "2": "Customization and development to meet specific client requirements.",
+        "3": "Development of custom modules for internal use or marketplace sale.",
+        "4": "Comprehensive training and ongoing ERP support."
+      },
+      "cta": "View Details"
+    },
+    "software": {
+      "img": "/images/serv2.png",
+
+      "title": "Custom Software Development",
+      "subtitle": "We develop innovative software solutions tailored to your unique business needs",
+      "details": {
+        "1": "Design and development of high-quality web applications.",
+        "2": "Building integrated mobile apps (iOS & Android).",
+        "3": "Integration with different systems using APIs.",
+        "4": "Continuous application maintenance and upgrades."
+      },
+      "cta": "View Details"
+    },
+    "hosting": {
+      "img": "/images/serv3.png",
+
+      "title": "Hosting Services",
+      "subtitle": "Secure and fast hosting solutions for your websites and applications",
+      "details": {
+        "1": "Reliable and secure cloud hosting.",
+        "2": "Regular backups to ensure data protection.",
+        "3": "Fully managed servers with continuous support.",
+        "4": "SSL certificates and site security against attacks."
+      },
+      "cta": "View Details"
+    },
+    "business": {
+      "img": "/images/serv4.png",
+
+      "title": "Business Analysis",
+      "subtitle": "Comprehensive analysis to help you make better strategic decisions",
+      "details": {
+        "1": "Analyzing processes and identifying strengths and weaknesses.",
+        "2": "Proposing solutions to improve performance and efficiency.",
+        "3": "Preparing reports to support decision-making.",
+        "4": "Designing workflows and strategic recommendations."
+      },
+      "cta": "View Details"
+    },
+    "marketing": {
+      "img": "/images/serv5.png",
+
+      "title": "Digital Marketing",
+      "subtitle": "Integrated marketing strategies to help you reach your target audience",
+      "details": {
+        "1": "Managing ad campaigns on Google and Facebook.",
+        "2": "Search Engine Optimization (SEO).",
+        "3": "Social media management.",
+        "4": "Performance analysis and detailed reporting."
+      },
+      "cta": "View Details"
+    },
+    "ai": {
+      "img": "/images/serv6.png",
+
+      "title": "Data Analytics & AI",
+      "subtitle": "Advanced solutions for data analysis and AI to grow your business",
+      "details": {
+        "1": "Building interactive dashboards.",
+        "2": "Using AI to predict trends.",
+        "3": "Customer behavior and data analysis.",
+        "4": "Custom machine learning model development."
+      },
+      "cta": "View Details"
+    },
+    "elearning": {
+      "img": "/images/serv7.png",
+
+      "title": "E-Learning Platforms",
+      "subtitle": "Innovative online learning solutions for your educational or training institutions",
+      "details": {
+        "1": "Design and development of full e-learning platforms.",
+        "2": "Managing content, students, and instructors.",
+        "3": "Adding quizzes and accredited certifications.",
+        "4": "Video integration and live conferencing support."
+      },
+      "cta": "View Details"
+    },
+    "events": {
+      "img": "/images/serv8.png",
+
+      "title": "Event & Crowd Management",
+      "subtitle": "Advanced systems for managing events and ensuring smooth, safe experiences",
+      "details": {
+        "1": "Design and development of online event registration systems.",
+        "2": "Ticketing and entry management with QR codes.",
+        "3": "Crowd tracking solutions and safety assurance.",
+        "4": "Comprehensive post-event reports and analytics."
+      },
+      "cta": "View Details"
+    },
+    "security": {
+      "img": "/images/serv9.png",
+
+      "title": "Cybersecurity",
+      "subtitle": "Comprehensive protection for your systems and data from digital threats",
+      "details": {
+        "1": "Comprehensive security assessment.",
+        "2": "Identifying and fixing vulnerabilities.",
+        "3": "Implementing advanced monitoring and protection systems.",
+        "4": "Employee cybersecurity training."
+      },
+      "cta": "View Details"
+    }
+  },
+  "distinguishes": {
+    "title": "What Makes Us Different",
+    "subtitle": "Your ideal partner for all your technology needs",
+    "cardsdist": [
+      {
+        "icon": "🏆",
+        "title": "Specialized Expertise",
+        "desc": "A team of experts specialized in Odoo, ERPNext, and custom software development"
+      },
+      {
+        "icon": "🔒",
+        "title": "Data Security",
+        "desc": "We adhere to the highest standards of data security and privacy in all our solutions"
+      },
+      {
+        "icon": "🌟",
+        "title": "Comprehensive Solutions",
+        "desc": "We provide all the tech services you need in one place: ERP, custom development, hosting, and business analysis"
+      },
+      {
+        "icon": "🛠️",
+        "title": "Outstanding Support",
+        "desc": "A professional support team that responds quickly to your needs and solves technical issues"
+      },
+      {
+        "icon": "💡",
+        "title": "Continuous Innovation",
+        "desc": "We always seek the latest technologies to deliver innovative solutions that give you a competitive edge"
+      },
+      {
+        "icon": "🤝",
+        "title": "Customer Focus",
+        "desc": "We put our clients' needs first and strive to ensure their full satisfaction"
+      },
+      {
+        "icon": "📈",
+        "title": "Efficiency Improvement",
+        "desc": "We help you automate processes and improve operational efficiency with our integrated solutions"
+      },
+      {
+        "icon": "💰",
+        "title": "Cost-Effective Solutions",
+        "desc": "We deliver the best value for money with solutions tailored to fit your budget and needs"
+      },
+      {
+        "icon": "📊",
+        "title": "Strategic Approach",
+        "desc": "We act as a strategic partner, understanding your goals and developing solutions that support long-term growth"
+      },
+      {
+        "icon": "✨",
+        "title": "Custom Solutions",
+        "desc": "We design and develop fully customized solutions for your unique business needs instead of ready-made ones"
+      },
+      {
+        "icon": "🤖",
+        "title": "AI Integration",
+        "desc": "We leverage advanced AI technologies to enhance our solutions and provide valuable insights"
+      },
+      {
+        "icon": "🌐",
+        "title": "Aligned with Vision 2030",
+        "desc": "Our solutions are fully aligned with Vision 2030 requirements for digital transformation and economic growth"
+      }
+    ]
+  },
+  "numbersSection": {
+    "title": "TRP Statistics",
+    "subtitle": "Numbers that reflect our success in delivering services and technical solutions to our clients",
+    "cards": [
+      {
+        "icon": "client1.png",
+        "value": "98",
+        "unit": "%",
+        "title": "Customer Satisfaction",
+        "desc": "Our clients’ satisfaction rate with the services provided"
+      },
+      {
+        "icon": "client2.png",
+        "value": "+250",
+
+        "title": "Successful Projects",
+        "desc": "Projects successfully completed for clients"
+      },
+      {
+        "icon": "client3.png",
+        "value": "+5",
+
+        "title": "Years of Experience",
+        "desc": "In the field of developing and delivering technical solutions"
+      },
+      {
+        "icon": "client4.png",
+        "value": "+15",
+
+        "title": "Specialized Experts",
+        "desc": "A team of experienced developers and analysts"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Stay updated with the latest tech trends",
+    "desc": "Subscribe to our newsletter to get the latest news and tips on technology and business solutions.",
+    "chooseServices": "Select the services you are interested in:",
+    "services": {
+      "erp": "ERP Systems",
+      "software": "Software Development",
+      "hosting": "Hosting Services",
+      "analysis": "Business Analysis"
+    },
+    "note": "* You can select more than one service",
+    "emailPlaceholder": "Email Address",
+    "button": "Subscribe Now",
+    "footerNote": "We won’t send you spam, and you can unsubscribe anytime."
+  },
+  "footer": {
+    "desc": "We provide integrated technology services to help companies grow and evolve in the digital transformation era, through innovative solutions tailored to diverse needs and requirements.",
+    "servicesTitle": "Our Services",
+    "services": {
+      "erp": "ERP Systems",
+      "dev": "Software Development",
+      "hosting": "Hosting Services",
+      "analysis": "Business Analysis"
+    },
+    "linksTitle": "Useful Links",
+    "links": {
+      "about": "About Us",
+      "success": "Success Stories",
+      "careers": "Careers",
+      "faq": "FAQ",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    },
+    "contactTitle": "Contact Us",
+    "contact": {
+      "phone": "+966 55 149 6982",
+      "email": "trps@kascco.sa",
+      "address": "Al Kawthar Road, Riyadh, 12486, Saudi Arabia",
+      "time": "Sun - Thu: 9 AM - 5 PM"
+    },
+    "copyright": "© 2025 TRP. All rights reserved."
+  },
+  "pageTitleContact": "Contact Us",
+  "contactSubtitleContact": "We’d love to hear from you! Please fill out the form below.",
+  "labels": {
+    "fullNameContact": "Full Name",
+    "companyNameContact": "Company Name (optional)",
+    "phoneContact": "Phone Number",
+    "emailContact": "Email",
+    "messageContact": "Your Message"
+  },
+  "phoneExampleContact": "Example: 0512345678 or +966512345678",
+  "requiredFieldsContact": "Fields marked with (*) are required",
+  "sendContact": "Send Message",
+
+  "softwaredevtitle": "Development Services",
+  "softwaredevs": [
+    {
+      "title": "Web Development",
+      "description": "Design and develop professional, responsive websites that enhance your digital presence.",
+      "features": [
+        "Interactive and responsive websites",
+        "Compatible with all devices and browsers",
+        "SEO optimization",
+        "User-friendly interfaces",
+        "Custom content management systems",
+        "Integration with social media and online payment"
+      ],
+      "icon": "/img/icons/web-programming.png"
+    },
+    {
+      "title": "Mobile App Development",
+      "description": "Create outstanding mobile apps for iOS and Android with smooth user experience.",
+      "features": [
+        "Native apps for iOS and Android",
+        "Hybrid apps for multiple platforms",
+        "Attractive and easy-to-use UI",
+        "Integration with cloud services",
+        "Push notification support",
+        "Maintenance and updates"
+      ],
+      "icon": "/img/icons/development.png"
+    },
+    {
+      "title": "Scripting & Automation",
+      "description": "Automate routine tasks and develop custom software solutions to improve efficiency.",
+      "features": [
+        "Workflow automation",
+        "Automatic data processing",
+        "System integration",
+        "RPA development",
+        "Data collection and analysis",
+        "Task and process management tools"
+      ],
+      "icon": "/img/icons/onboarding.png"
+    },
+    {
+      "title": "Browser Extensions",
+      "description": "Develop custom browser extensions to enhance and speed up online processes.",
+      "features": [
+        "Extensions for Chrome, Firefox, and Edge",
+        "Productivity tools",
+        "Data collection solutions",
+        "Custom browser experience tools",
+        "Shopping experience enhancements",
+        "User-friendly interfaces"
+      ],
+      "icon": "/img/icons/extensions.png"
+    },
+    {
+      "title": "Desktop Applications",
+      "description": "Develop professional desktop apps for Windows, MacOS, and Linux.",
+      "features": [
+        "Cross-platform applications",
+        "Easy-to-use UI",
+        "High performance and stability",
+        "Integration with cloud services",
+        "Offline support",
+        "Regular updates and maintenance"
+      ],
+      "icon": "/img/icons/module.png"
+    }
+  ],
+  "erpTitle": "Our ERP Services",
+  "erpServices": [
+    {
+      "title": "Odoo Solutions",
+      "description": "Implement, customize, and develop integrated Odoo solutions, both community and enterprise editions.",
+      "features": [
+        "Odoo installation and configuration",
+        "Customize user interfaces",
+        "Integration with third-party systems",
+        "Develop custom modules",
+        "Version upgrades",
+        "Continuous support and maintenance"
+      ],
+      "icon": "/images/erp1.png"
+    },
+    {
+      "title": "ERPNext Solutions",
+      "description": "Implement, customize, and maintain ERPNext solutions, the leading open-source ERP built on Frappe.",
+      "features": [
+        "ERPNext installation and configuration",
+        "Customization according to business needs",
+        "Develop additional modules",
+        "Data migration",
+        "Integration with existing systems",
+        "User training"
+      ],
+      "icon": "/images/erp2.png"
+    },
+    {
+      "title": "Custom ERP Modules",
+      "description": "Design and develop fully customized ERP modules to meet your unique business requirements.",
+      "features": [
+        "Custom operations management",
+        "Advanced reporting",
+        "Integration with external systems",
+        "Custom user interfaces",
+        "New data model development",
+        "Modules for app stores"
+      ],
+      "icon": "/images/erp3.png"
+    },
+    {
+      "title": "Support & Training Services",
+      "description": "Provide excellent technical support and comprehensive training to maximize your ERP benefits.",
+      "features": [
+        "24/7 technical support",
+        "User training",
+        "Admin training",
+        "Regular maintenance",
+        "System updates and upgrades",
+        "Emergency issue resolution"
+      ],
+      "icon": "/images/erp4.png"
+    }
+  ],
+  "hostingTitle": "Integrated Hosting Services",
+  "hostingServices": [
+    {
+      "title": "Domain Services",
+      "description": "Register and manage your domain names with a variety of extensions.",
+      "features": [
+        "Register domains with various extensions",
+        "Transfer domains from other providers",
+        "Privacy protection",
+        "Advanced DNS management",
+        "Automatic domain renewal",
+        "Competitive pricing"
+      ],
+      "icon": "/images/h1.png",
+
+      "button": "View Domain Pricing",
+      "buttonLink": "#domain-pricing"
+    },
+    {
+      "title": "Virtual Private Servers (VPS)",
+      "description": "High-performance VPS with full control and dedicated resources.",
+      "features": [
+        "High performance and reliability",
+        "Full server control (Root Access)",
+        "Flexibility in choosing OS",
+        "Custom resource configuration",
+        "Automatic backups",
+        "24/7 technical support"
+      ],
+      "icon": "/images/h2.png",
+
+      "button": "View VPS Plans",
+      "buttonLink": "#vps-pricing"
+    },
+    {
+      "title": "Shared Hosting",
+      "description": "Cost-effective shared hosting solutions for small to medium websites with excellent performance.",
+      "features": [
+        "Easy-to-use control panels",
+        "One-click app installation",
+        "Professional email",
+        "Large storage spaces",
+        "Unlimited data transfer",
+        "Fast technical support"
+      ],
+      "icon": "/images/h3.png",
+      "button": "View Hosting Plans",
+      "buttonLink": "#pricing"
+    },
+    {
+      "title": "SSL Certificates",
+      "description": "Secure your website with SSL certificates to protect user data and improve search engine rankings.",
+      "features": [
+        "Free and premium SSL certificates",
+        "Complete data protection",
+        "256-bit strong encryption",
+        "Automatic installation and renewal",
+        "Improve website SEO ranking",
+        "Increase customer trust"
+      ],
+      "icon": "/images/h4.png",
+      "button": "Request SSL Certificate",
+      "buttonLink": "#contact"
+    },
+    {
+      "title": "Control Panels (cPanel)",
+      "description": "Easily manage your hosting services with an intuitive user interface.",
+      "features": [
+        "Easy-to-use interface",
+        "Email management",
+        "Database management",
+        "File manager",
+        "One-click app installation",
+        "Monitor website performance"
+      ],
+      "icon": "/images/h5.png",
+      "button": "View cPanel Plans",
+      "buttonLink": "#pricing"
+    }
+  ]
+}
