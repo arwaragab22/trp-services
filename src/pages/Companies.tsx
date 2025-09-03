@@ -1,8 +1,7 @@
-import React from 'react'
 
-type Props = {}
 
-function Companies({}: Props) {
+
+function Companies() {
   return (
     <div>Companies</div>
   )

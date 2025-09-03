@@ -1,5 +1,13 @@
 
 import { useTranslation } from 'react-i18next';
+export type ServiceItem = {
+    title: string;
+    description: string;
+    features: string[];
+    icon: string;
+    button: string;
+    buttonLink: string;
+};
 
 
 
@@ -7,7 +15,7 @@ function Hosting() {
     const { t } = useTranslation();
 
     // جلب بيانات الخدمات من i18next
-    const services = t("hostingServices", { returnObjects: true });
+    const services = t("hostingServices", { returnObjects: true }) as ServiceItem[];
 
     return (
         <div className="mb-20 mt-8" id="services">

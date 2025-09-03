@@ -1,4 +1,4 @@
-import { object } from "framer-motion/client";
+
 import { useTranslation } from "react-i18next";
 type ServiceKeys = "erp" | "software" | "hosting" | "analysis";
 

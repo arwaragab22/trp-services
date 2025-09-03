@@ -1,8 +1,7 @@
-import React from 'react'
 
-type Props = {}
 
-function Services({}: Props) {
+
+function Services() {
   return (
     <div>Services</div>
   )

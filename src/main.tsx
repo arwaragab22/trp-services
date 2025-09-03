@@ -4,11 +4,8 @@ import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from './pages/Home.tsx';
-import Services from './pages/Services.tsx';
-import Solutions from './pages/Solutions.tsx';
-import Companies from './pages/Companies.tsx';
-import Stories from './pages/Stories.tsx';
-import Contact from './pages/Contact.tsx';
+
+
 import "./index.css";
 
 import './i18n';

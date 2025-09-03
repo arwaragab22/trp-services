@@ -7,7 +7,7 @@ import News from './components/News';
 import Footer from './components/Footer';
 
 function App() {
-  const { t, i18n } = useTranslation();
+  const {  i18n } = useTranslation();
   useEffect(() => {
     i18n.changeLanguage("ar");
 

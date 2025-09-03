@@ -1,8 +1,6 @@
-import React from 'react'
 
-type Props = {}
 
-function Stories({}: Props) {
+function Stories() {
   return (
     <div>Stories</div>
   )

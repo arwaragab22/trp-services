@@ -4,7 +4,6 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion";
-import { FaChevronDown } from "react-icons/fa";
 import { NavLink } from "react-router";
 
 type accordiontype = {

@@ -95,7 +95,7 @@ function Tabsexveptionservices() {
                 }
               )}
             </TabsList>
-            {Array.from(Object.values(serviceexp)).map((ele: Service, key) => {
+            {Array.from(Object.values(serviceexp)).map((ele: Service) => {
               return (
                 <TabsContent value={ele.title} className="mt-6">
                   <div className="block">
