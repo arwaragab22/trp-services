@@ -5,7 +5,7 @@ function Hero() {
   const { t } = useTranslation();
 
   return (
-    <div className="hero lg:h-[calc(100dvh-88px)]  flex bg-bgmain text-white  flex-col justify-evenly relative py-6 lg:px-0">
+    <div className="hero lg:h-[calc(100dvh-88px)]  flex bg-bgmain text-white  flex-col justify-evenly relative p-6 lg:px-0">
       <div className="">
         <div
           className=" w-full lg:w-[100%] flex  flex-col lg:flex-row mx-auto justify-center items-center mb-[10px] lh:mb-0  my-[20px] 
@@ -27,7 +27,7 @@ function Hero() {
               </button>
             </div>
           </div>
-          <div className="   h-[90%] w-full  lg:w-[60%]">
+          <div className="   h-[88%] w-full  lg:w-[60%]">
             <img
               src="/images/hero.webp"
               className=" w-full h-full object-contain max-h-[97.5%]"
