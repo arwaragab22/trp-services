@@ -35,6 +35,7 @@ function Sidemenu({
 
           <li className="border-b-1 border-b-gray-100 border-b-solid">
             <AccordionDemo
+              links={t("services.links", { returnObjects: true }) as string[]}
               title={t("services.title")}
               list={t("services.list", { returnObjects: true }) as string[]}
             />

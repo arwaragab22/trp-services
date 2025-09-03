@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { NavLink, useLocation } from "react-router";
 import "../../index.css";
 import { FaAngleDown } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
@@ -8,8 +8,12 @@ import { t } from "i18next";
 import { MdOutlineMenu } from "react-icons/md";
 import Sidemenu from "../Sidemenu";
 import Menuoflink from "../Menuoflink";
+import { setMaxListeners } from "events";
+import { TbChevronsDownLeft } from "react-icons/tb";
 type lang = "ar" | "en";
 function Header() {
+  const location = useLocation();
+
   const [openside, setopenside] = useState(false);
   const refheader = useRef<HTMLDivElement>(null);
   const [openmenulink, setopenmenulink] = useState<string | null>(null)
@@ -54,14 +58,21 @@ function Header() {
       }
     });
     window.addEventListener("scroll", scrollpage);
+    Array.from(document.getElementsByClassName("linknavserv")).forEach((ele) => {
+      const paths = ["/Software", "/Hosting", "/ERP"];
+      console.log(paths[2], window.location.pathname);
+      if (!paths.includes(window.location.pathname)) {
+        ele.classList.remove("active1")  
 
+      }
+    })
     document.addEventListener("click", clickoutside);
     return () => {
       document.removeEventListener("click", clickoutside);
       window.removeEventListener("scroll", scrollpage);
 
     }
-  }, []);
+  }, [openmenulink,location.pathname]);
 
   return (
     <div ref={refheader} className=" bg-bgmain font-NotoSans h-[88px]">
@@ -85,7 +96,7 @@ function Header() {
           <ul className=" hidden lg:flex text-white gap-5 font-semibold text-xl ">
             <li>
               <NavLink to="/" className={({ isActive }) =>
-                `linknav ${isActive ? "active1" : ""}`
+                `linknav  active ${isActive ? "active1" : ""}`
               }>
                 <span>{t("nav.home")}</span>
               </NavLink>
@@ -94,11 +105,31 @@ function Header() {
             <li
               className="relative"
               onMouseLeave={(e) => {
-                setopenmenulink(null); const target = e.currentTarget as HTMLElement; // type assertion
+              
+           const target = e.currentTarget as HTMLElement; // type assertion
                 const t = target.querySelector("div");
+                const paths = ["/Software", "/Hosting", "/ERP"];
+                console.log(paths[2], window.location.pathname);
                 if (t) {
+                  if ( paths.includes(window.location.pathname)) {
+                    console.log(window.location.pathname)
+                    setopenmenulink(null);
 
-                  t.classList.remove("active1");
+                  }
+                  else {
+                    if (openmenulink === "services") {
+                      setopenmenulink(null);
+
+
+                    } else {
+                      setopenmenulink(null);
+                    
+                    }
+                  
+
+
+                  }
+              
 
                 }
               }}
@@ -115,27 +146,27 @@ function Header() {
               }
               }
             >
-              <NavLink
-                to="#"
-                className={({ isActive }) =>
-                  `flex gap-1 items-center linknav cursor-pointer ${isActive || openmenulink === "services" ? "active1" : ""
-                  }`
-                }
+              <div
+                className={`flex gap-1 items-center linknav cursor-pointer  relative linknavserv ${openmenulink === "services" || ["/Software", "/Hosting", "/ERP"].includes(location.pathname) ? "active1" : " "
+                  }`}
+                onClick={() => setopenmenulink("services")}
               >
                 <span>{t("nav.services")}</span>
-                <FaAngleDown />
-              </NavLink>
-              {openmenulink === "services" && (
-                <div className="absolute top-[33px] left-0 rtl:right-0 ltr:left-0 z-[40000]">
-                  <Menuoflink
-                    list={t("services.list", { returnObjects: true }) as string[]}
-                    links={t("services.links", { returnObjects: true }) as string[]} onLinkClick={() => {
-                      // نضيف الكلاس للعنصر الأساسي عند الضغط
-                      setopenmenulink("services");
-                    }}
-                  />
-                </div>
-              )}
+                <FaAngleDown className={`mt-[7px] ${openmenulink === "services" ? "rotate-180 text-greentxt transition" : "transition"}`} />
+              
+                {openmenulink === "services" && (
+                  <div className="absolute top-[33px] left-0 rtl:right-0 ltr:left-0 z-[40000]">
+                    <Menuoflink
+                      list={t("services.list", { returnObjects: true }) as string[]}
+                      links={t("services.links", { returnObjects: true }) as string[]}
+                      onLinkClick={() => {
+                        // نضيف الكلاس للعنصر الأساسي عند الضغط
+                        setopenmenulink("services");
+                      }}
+                    />
+                  </div>
+                )}</div>
+            
             </li>
 
 
@@ -167,7 +198,7 @@ function Header() {
                 className="flex gap-1 items-center linknav cursor-pointer"
               >
                 <span>{t("nav.companies")}</span>
-                <FaAngleDown />
+                <FaAngleDown className={`mt-[7px] ${openmenulink === "companies" ? "rotate-180 text-greentxt transition" : "transition"}`} />
                 {openmenulink === "companies" && (
                   <div className="absolute top-[33px] left-0 rtl:right-0 ltr:left-0 z-[40000]">
 

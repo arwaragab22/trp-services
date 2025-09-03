@@ -102,7 +102,7 @@ body{
 width: 100%;
 }
 .linknav:hover {
-
+color:  var(--color-greentxt); transition: .5s; -webkit-transition:; -moz-transition:; -ms-transition:; -o-transition:;
 width: 100%;
 }
 .linknav:hover::after {
